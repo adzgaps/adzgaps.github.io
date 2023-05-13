@@ -75,13 +75,12 @@ section:nth-of-type(2) {
 /*jump button text*/
 .jump {
   text-decoration: none;
-  font-size:x-large;
+  font-size: x-large;
   color: white;
   font-weight: bold;
   border: solid darkblue 2px;
   border-radius: 6px;
   background-color: darkblue;
-  
 }
 /*end of jump button*/
 
@@ -139,23 +138,10 @@ h3 {
 }
 
 .ingredients:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   /*overflow: hidden;*/
 }
 /*end of ingredients*/
-
-/*making fix height of the recipe section*/
-section:nth-of-type(3),section:nth-of-type(4){
-  height: 600px;
-}
-
-section:nth-of-type(5) div{
-  height: 900px;
-}
-
-section:nth-of-type(6) div{
-  height: 500px;
-}
 
 /*h4*/
 h4 {
@@ -207,4 +193,7 @@ footer {
   /*border: solid gray 1px;*/
   text-align: justify;
 }
-/*End of about*/
+
+img {
+  border-radius: 10px;
+}
